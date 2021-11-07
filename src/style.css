@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(255, 221, 167);
+}
+
+label,
+input {
+  margin-top: 10px;
+}
+
+input {
+  width: 100px;
+}
+
+.generate,
+.reset {
+}
+
+.generate {
+  margin-top: 10px;
+}

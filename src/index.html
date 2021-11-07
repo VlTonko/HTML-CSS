@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>htmlCSS</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h2>RANDOMIZER</h2>
+        <label for="minValue">Min</label>
+        <input type="number" name="minValue" id="minValue" min="1" />
+
+        <label for="maxValue">Max</label>
+        <input type="number" name="maxValue" id="maxValue" min="1" />
+
+        <button class="generate">Generate</button>
+
+        <div>
+          <p class="outputValue">Generated number:</p>
+        </div>
+
+        <button class="reset">Reset</button>
+        <script src="app.js"></script>
+      </div>
+    </main>
+  </body>
+</html>
